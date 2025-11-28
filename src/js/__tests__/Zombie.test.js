@@ -3,5 +3,5 @@ import { ZOMBIE } from "../characters/CharacterTypes";
 
 test("Создание персонажа Зомби", () => {
     const character = new Zombie("Рома");
-    expect(character).toEqual({name: "Рома", type: ZOMBIE, health: 100, level: 1, attack: 10, defence: 40});
+    expect(character).toEqual({name: "Рома", type: ZOMBIE, health: 100, level: 1, attack: 40, defence: 10});
 });
